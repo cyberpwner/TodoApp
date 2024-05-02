@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  height: 100vh;
+}
+
+main {
+  background-image: url('../public/background.jpg');
+}
